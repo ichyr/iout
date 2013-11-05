@@ -1,0 +1,16 @@
+<h1>Listing money</h1>
+
+<div class="row">
+    <div class="col-md-6">
+      <%= render partial: "income", object: @incomes %>
+    </div>
+
+    <div class="col-md-6">
+      <%= render partial: "income", object: @outcomes %>
+    </div>
+</div>
+
+
+<br />
+
+<%= link_to 'New Money', new_money_path %>

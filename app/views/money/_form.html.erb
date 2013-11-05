@@ -1,0 +1,29 @@
+<%= form_for(@money) do |f| %>
+  <% if @money.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@money.errors.count, "error") %> prohibited this money from being saved:</h2>
+
+      <ul>
+      <% @money.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :sum %><br />
+    <%= f.text_field :sum %>
+  </div>
+  <div class="field">
+    <%= f.label :income %><br />
+    <%= f.text_field :income %>
+  </div>
+  <div class="field">
+    <%= f.label :category %><br />
+    <%= f.number_field :category %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

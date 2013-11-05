@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Sum:</b>
+  <%= @money.sum %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @money.income %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @money.category %>
+</p>
+
+
+<%= link_to 'Edit', edit_money_path(@money) %> |
+<%= link_to 'Back', money_index_path %>

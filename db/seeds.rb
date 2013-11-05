@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+(1..100).each do |t|
+	Money.create :category => Random.rand(10), 
+				 :sum => Random.rand(1000),
+				 :income => (Random.rand(10) % 2 == 0 ) ? true : false
+end

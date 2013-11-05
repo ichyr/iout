@@ -1,7 +1,7 @@
-v. 1.0 - App for anyone logging the assets
+v. 1.0 - App for anyone to log his/her assets
 
 1. bootstrap - two column layout
-2. Money model (sum, type[in,out])
++ Money model (sum, type[in,out])
 2a. How to input data ? - dialog and button
 3. Highcharts
 4. Seed of information
