@@ -1,0 +1,23 @@
+v. 1.0 - App for anyone logging the assets
+
+1. bootstrap - two column layout
+2. Money model (sum, type[in,out])
+2a. How to input data ? - dialog and button
+3. Highcharts
+4. Seed of information
+
+5. Enable categorization
+	Money model (sum, type[in,out], category)
+
+v. 2.0 - App for personalizaed logging
+
+6. Add User model ( devise )
+7. Add assotiation between user and money
+8. Additional filtering
+
+
+v. 3.0 Totally tested prototype
+
+9. rspec (models, controllers)
+10. factory_girl (models)
+11. request testing
